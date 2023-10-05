@@ -8,10 +8,9 @@ services:
     ports:
       - 8080:80
     environment:
-      WORDPRESS_DB_HOST: db
-      WORDPRESS_DB_USER: exampleuser
-      WORDPRESS_DB_PASSWORD: examplepass
-      WORDPRESS_DB_NAME: exampledb
+      WORDPRESS_DB_HOST: sqlserver
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: secret
     volumes:
       - wordpress:/var/www/html
 
