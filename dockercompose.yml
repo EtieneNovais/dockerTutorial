@@ -19,7 +19,7 @@ services:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_DATABASE: sqlserver
+      MYSQL_DATABASE: exampledb
       MYSQL_USER: root
       MYSQL_PASSWORD: secret
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
